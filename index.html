@@ -9,63 +9,27 @@
 <script src="https://kit.fontawesome.com/713f91cfa7.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-      <nav>
-        <div class="navbar bg-base-100">
-            <div class="flex-1">
-              <a class="btn btn-ghost text-xl">Rinterio</a>
-            </div>
-            <div class="flex-none">
-              <div class="dropdown dropdown-end">
-                <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
-                  <div class="indicator">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor">
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-                    </svg>
-                  </div>
-                </div>
-                <div
-                  tabindex="0"
-                  class="card card-compact dropdown-content bg-base-100 z-[1] mt-3 w-52 shadow">
-                  <div class="card-body">
-                    <div class="card-actions">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="dropdown dropdown-end">
-                <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
-                  <div class="w-10 rounded-full">
-                    <img
-                      alt="Tailwind CSS Navbar component"
-                      src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
-                  </div>
-                </div>
-                <ul
-                  tabindex="0"
-                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                  <li>
-                    <a class="justify-between">
-                      Profile
-                      <span class="badge">New</span>
-                    </a>
-                  </li>
-                  <li><a>Settings</a></li>
-                  <li><a>Logout</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-      </nav>
+    <header class="container mx-auto bg-[#FFFFFF]">
+        <!-- NAV BAR -->
+       <nav class="flex justify-between items-center mx-auto justify-start">
+        <div><h2 class="text-xl"><span><i class="fa-solid fa-arrow-right bg-[#ABEF5F] rounded-2xl p-1 -rotate-45"></i></span><span class="text-2xl font-bold">Rinterio</span></h2>
+         </div>
+        <div class="">
+          <ul class="hidden lg:flex items-center gap-6 md:flex items-center gap-6">
+            <li class="font-bold"><a href=""></a>Home</li>
+            <li><a href=""></a>Services</li>
+            <li><a href=""></a>Portfolio</li>
+            <li><a href=""></a>Blogs</li>
+            <li><a href=""></a>Contact US</li>
+          </ul>
+        </div>
+        <div class=" hidden sm:block gap-6">
+          <span class="bg-white rounded-lg p-1"><i class="fa-solid fa-magnifying-glass"></i></span>
+          <span><i class="fa-solid fa-cart-shopping p-1"></i></span>
+        </div>
+        <div class="hidden sm:block"><h2 class="bg-[#ABEF5F] p-1 rounded-xl">Book Consult <span><i class="fa-solid fa-arrow-right bg-black text-white rounded-xl p-1 -rotate-45"></i></span></h2></div>
+        <div class="block md:hidden absolute left-80"><span class="bg-white rounded-xl"><i class="fa-solid fa-bars"></i></span></div>
+       </nav>
     </header>
     <main>
 
